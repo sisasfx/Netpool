@@ -26,11 +26,12 @@
     height: fit-content;
     background-color: #006097;
 }
-.main-card-img{
-    width: 33%;
-    height: fit-content;
-    margin: 2rem;
-    border-radius: 2rem;
+.main-card-img {
+  width: 33%;
+  height: auto;
+  margin: 2rem;
+  border-radius: 2rem;
+  display: block;
 }
 .main-card-text{
     display: flex;

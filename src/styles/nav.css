@@ -1,0 +1,83 @@
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.5); /* Fondo transparente */
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+.nav-list{
+    display: flex;
+    flex-direction: row;
+}
+li{
+    margin-top: 1rem;
+    margin-left: 4rem;
+    margin-right:4rem;
+    list-style: none;
+    color: #5b5050;
+    font-size:large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+li:nth-child(1){
+    margin-left: 10rem;
+}
+.img-container{
+    height: 100px;
+    width: 100px;
+    border-radius: 20px;
+    
+}
+@media screen and (min-width: 768px) and (max-width: 1080px) {  
+    li{
+        margin-left: 1rem;
+    }
+    li:nth-child(1){
+        margin-left: 0rem;
+    }
+    .menu-hamburger{
+        display: none;
+    }
+}
+li:nth-child(1){
+    margin-left: 0rem;
+}
+.menu-hamburger{
+    display: none;
+}
+@media screen and (min-width: 320px) and (max-width: 768px) {  
+    .nav-list {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 87%;
+        left: 0;
+        width: 100%;
+        background-color: rgba(255, 255, 255, 0.9);
+        padding: 20px 0;
+        text-align: center;
+        transform: translateX(-100%); /* Comienza fuera de la pantalla a la izquierda */
+        opacity: 0; /* Ocultar inicialmente */
+        visibility: hidden; /* Hace que no sea clicable o visible */
+        transition: transform 0.5s ease, opacity 0.5s ease, visibility 0.5s ease;
+      }
+      
+      .nav-list.open {
+        transform: translateX(0); /* Mueve el menú al centro de la pantalla */
+        opacity: 1; /* Lo hace visible */
+        visibility: visible; /* Lo hace interactivo */
+      }
+    .menu-hamburger{
+        display: block;
+        font-size: 4rem;
+        cursor: pointer;
+        margin-left: 2rem;
+        color:#006097; 
+    }
+    li{
+        margin-left: 0rem;
+        }
+}

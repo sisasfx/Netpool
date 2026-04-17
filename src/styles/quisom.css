@@ -1,0 +1,71 @@
+.qui_som{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #006097;
+    /* background:linear-gradient(to bottom, #006097 66%, rgba(233,233,234,30) 100%); */
+}
+.second_card_section{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+.three_blocks_quisom{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.client_quisom{
+    margin-top: 2rem;
+    padding-bottom: 1rem;
+    width: 33%;
+}
+.client_quisom > h6{
+    width: 50%;
+}
+.equip_quisom{
+    margin-top: 2rem;
+    padding-bottom: 1rem;
+    width: 33%;
+}
+.equip_quisom > h6{
+    width: 50%;
+}
+.atencio_quisom{
+    margin-top: 2rem;
+    padding: 1.5rem 1rem; /* Ajustado para mayor relleno */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color:white; /* Cambiado a un color de texto más oscuro para mayor legibilidad */
+    /* border: 1px solid #ccc; */
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1); /* Sombra más suave y extendida */
+    width: 300px; /* Ajustado a un ancho fijo y más común para tarjetas de productos */
+    border-radius: 15px; /* Cambiado a un borde más suave */
+}
+.row_two{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    justify-items:center;
+    justify-content: space-around;
+}
+p{
+    width: 80%;
+    font-size: large;
+}
+@media screen and (min-width: 768px) and (max-width: 1080px) {
+   
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .row_two{
+        display: flex;
+        flex-direction: column;
+    }
+}

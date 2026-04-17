@@ -1,0 +1,132 @@
+
+.section-serveis{
+    background-color: white;
+    /* background-color: #006097;
+    background: linear-gradient(to bottom, #006097 0%, rgba(255,255,255,0) 100%); */
+}
+.card-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5rem;
+}
+.card{
+    width: 25%;
+    height: auto;
+    background-color: white;
+    border-radius: 1rem;
+    margin: 1rem;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+.main-card-section{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    height: fit-content;
+    background-color: #006097;
+}
+.main-card-img{
+    width: 33%;
+    height: fit-content;
+    margin: 2rem;
+    border-radius: 2rem;
+}
+.main-card-text{
+    display: flex;
+    flex-direction: column;
+    margin-left: 4rem;
+    background-color:#006097;
+    color: white;
+}
+.card-title{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2.5rem;
+}
+.card-text{
+    width: 80%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+}
+.column-card-text{
+    padding: 1rem;
+}
+.first_three{
+    display:flex;
+    align-items: top;
+    margin-left:10%;
+}
+.second_three{
+    display:flex;
+    align-items: top;
+    margin-left:10%;
+}
+.card-img{
+    height:10rem ;
+    width: 100%;
+    background-size: cover; /* Asegura que la imagen cubra todo el fondo */
+    background-position: center; /* Centra la imagen en el contenedor */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    border-radius: 2rem;
+}
+.card-2{
+    top:0px;
+}
+.column-card-text > h1{
+    color: #006097;
+}
+.icon-plus{
+    display: none;
+    height: 2rem;
+    width: 2rem;
+    color: #006097;
+}
+@media screen and (min-width: 768px) and (max-width: 1080px) {
+  
+    .icon-plus{
+        display: flex;
+        height: 2rem;
+        width: 2rem;
+        color: #006097;
+    }  
+   .main-card-section{
+    display: flex;
+    flex-direction: column;
+   }
+   .main-card-img{
+    width: 80%;
+   }
+   .card > p{
+    padding: 1rem;
+   }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {  
+    .icon-plus{
+        display: flex;
+        height: 2rem;
+        width: 2rem;
+        color: #006097;
+    }  
+    .main-card-section{
+        display: flex;
+        flex-direction: column;
+       }
+       .main-card-img{
+        width: 80%;
+       }
+       /* .column-card-text > p{
+        display: none;
+       } */
+        .first_three{
+            display: flex;
+            flex-direction: column;
+        }
+       .card{
+        width: 80% ;
+       }
+       .second_three{
+        display: flex;
+        flex-direction: column;
+       }
+    }

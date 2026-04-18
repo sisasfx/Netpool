@@ -7,7 +7,7 @@ function Quisom() {
         <div className="about-image-wrapper">
           <img
             className="about-image"
-            src="/equip_netpool.jpg"
+            src="/equip_netpool.webp"
             alt="Equip de Netpool treballant en una piscina"
           />
         </div>

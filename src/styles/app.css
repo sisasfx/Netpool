@@ -1,3 +1,19 @@
-.body-main{
-    background-color: white;
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+#inici,
+#serveis,
+#quisom,
+#footer {
+  scroll-margin-top: 110px;
 }

@@ -31,7 +31,7 @@ function Serveis() {
 
         <img
           className="services-intro__image"
-          src="/sea-view.jpg"
+          src="/sea-view.webp"
           alt="Piscina exterior amb vistes al mar"
         />
       </div>
@@ -40,7 +40,7 @@ function Serveis() {
         <article className="service-card">
           <img
             className="service-card__image"
-            src="/manteniment.jpeg"
+            src="/manteniment.webp"
             alt="Treballs de manteniment de piscina"
           />
           <div className="service-card__content">
@@ -57,7 +57,7 @@ function Serveis() {
         <article className="service-card">
           <img
             className="service-card__image"
-            src="/productes-quimics.jpeg"
+            src="/productes-quimics.webp"
             alt="Productes i sistemes per al tractament de l'aigua"
           />
           <div className="service-card__content">
@@ -74,7 +74,7 @@ function Serveis() {
         <article className="service-card">
           <img
             className="service-card__image"
-            src="/reparacions.jpeg"
+            src="/reparacions.webp"
             alt="Reparació de sistemes i components de piscina"
           />
           <div className="service-card__content">
@@ -90,7 +90,7 @@ function Serveis() {
         <article className="service-card">
           <img
             className="service-card__image"
-            src="/construccio-jardi.jpg"
+            src="/construccio-jardi.webp"
             alt="Construcció i reforma de piscina"
           />
           <div className="service-card__content">
@@ -109,7 +109,7 @@ function Serveis() {
         <article className="service-card">
           <img
             className="service-card__image"
-            src="/disenny_jardi.jpg"
+            src="/disenny_jardi.webp"
             alt="Disseny de jardí i espais exteriors"
           />
           <div className="service-card__content">
@@ -125,7 +125,7 @@ function Serveis() {
         <article className="service-card">
           <img
             className="service-card__image"
-            src="/manteniment_jardi.jpg"
+            src="/manteniment_jardi.webp"
             alt="Servei de manteniment de jardí"
           />
           <div className="service-card__content">

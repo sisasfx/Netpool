@@ -5,7 +5,7 @@ function Body() {
     <section className="hero" id="inici">
       <img
         className="hero-image"
-        src="/portada.jpg"
+        src="/portada.webp"
         alt="Piscina exterior reformada por Netpool"
       />
 
